@@ -1,7 +1,7 @@
 {
-  "name": "vue-pdf-viewer",
+  "name": "vue-my-pdf-viewer",
   "description": "a simple vue pdf viewer based on pdf.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "wyuye <wyuye_beself@qq.com>",
   "license": "MIT",
   "private": false,

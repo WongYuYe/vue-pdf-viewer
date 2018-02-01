@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <button @click="openpdf">openpdf</button>
-    <vue-pdf-viewer :pdfurl="pdfUrl" @closepdf="closepdf" v-show="isshowpdf"></vue-pdf-viewer>
+    <div>{{pdfUrl}}</div>
+    <!-- <vue-pdf-viewer :pdfurl="pdfUrl" @closepdf="closepdf" v-show="isshowpdf"></vue-pdf-viewer> -->
   </div>
 </template>
 
