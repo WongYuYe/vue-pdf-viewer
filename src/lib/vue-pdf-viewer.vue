@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div id="pdf-viewer">
     <div class="center">
       <div class="contor">
         <button @click="prev">上一页</button>
@@ -113,10 +113,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-::-webkit-scrollbar {
-  width: 0;
-}
-.wrapper {
+#pdf-viewer {
   position: fixed;
   top: 0;
   left: 0;
@@ -127,6 +124,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  ::-webkit-scrollbar {
+    width: 0
+  }
   .center {
     text-align: center;
     height: 100%;
